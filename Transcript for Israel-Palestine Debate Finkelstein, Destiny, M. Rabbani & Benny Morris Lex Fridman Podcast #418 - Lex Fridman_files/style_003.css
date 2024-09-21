@@ -1,0 +1,152 @@
+/*
+Theme Name: Twenty Twelve Child
+Theme URI: https://wordpress.org/themes/twentytwelve/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Template: twentytwelve
+Description: The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
+Version: 2.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: twentytwelve-child
+
+*/
+@import url("//fonts.googleapis.com/css?family=Raleway");
+@import url("//fonts.googleapis.com/css?family=Ubuntu");
+body {
+  color: #000000;
+}
+
+div#main {
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+  color: #000000;
+}
+
+.site-header h1.site-title, .site-header h1.site-title a {
+  display: none;
+}
+
+footer[role=contentinfo] {
+  display: none;
+}
+
+.page .entry-title {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: normal;
+  font-size: 34px;
+  padding-top: 20px;
+}
+@media (min-width: 960px) {
+  .page .entry-title {
+    margin-left: -130px;
+    margin-right: -130px;
+    width: 960px;
+    min-width: 960px;
+  }
+}
+
+.site-content {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.site-content article {
+  border-bottom: none;
+}
+
+img.size-full, img.size-large, img.header-image, img.wp-post-image, .entry-content img {
+  box-shadow: none;
+}
+
+.wrapper {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.site-header {
+  padding-bottom: 0px;
+}
+
+.entry-content a:visited,
+.comment-content a:visited {
+  color: #21759b;
+}
+
+.entry-content a:hover,
+.comment-content a:hover {
+  color: #00b6ff;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+@media (min-width: 960px) {
+  .big-display, .size-x-large {
+    margin-left: -130px;
+    margin-right: -130px;
+    width: 960px;
+    min-width: 960px;
+  }
+}
+
+.entry-content h3 {
+  margin-bottom: 0px;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+}
+/**************************** Posts ***************************/
+.type-post .entry-header .entry-title {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+footer.entry-meta {
+  display: none;
+}
+
+nav.nav-single {
+  display: none;
+}
+
+/**************************** Menu ******************************/
+#site-navigation div#mega-toggle-block-3 {
+  font-size: 20px;
+  padding-left: 2px;
+}
+#site-navigation div#mega-toggle-block-3 a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+/**************************** Misc Pages ******************************/
+span.contact-email {
+  background-color: #EEEEEE;
+  font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
+  padding: 5px;
+}
+
+/**************************** Transcripts ******************************/
+.category-transcripts div.episode-player {
+  padding-top: 20px;
+}
+.category-transcripts span.ts-name {
+  font-weight: bold;
+  display: block;
+  padding-top: 10px;
+}
+.category-transcripts h2 {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #9c0505;
+}
+
+/*# sourceMappingURL=style.css.map */
